@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Online Food Delivery</title>
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="index.js"></script>
+    </head>
+    <body>
+        <section class="menu">
+            <div class="nav">
+                <div class="logo"><img class="img3" src="./image/foodie wave image.png" alt=""></div>
+                <ul>
+                    <li><a class="active" href="">Home</a></li>
+                    <li><a href="#dishes">Dishes</a></li>
+                    <li><a href="#About Us">About Us</a></li>
+                    <li><a href="#order1">Order</a></li>
+                </ul>
+                <div>
+                    
+                    <a href="#"><i class="fa fa-cart-arrow-down" aria-hidden="true" id="cart"></i></a>
+                </div>
+                <div>
+                    <form action="" >
+                        <input type="search" placeholder="Search here..." name="" id="search-popup" >
+                        <label onclick="hidePopup1()" id="cancel_button" class="cancel_button1">x</label>
+                    </form>
+                    <i class="fa fa-search" aria-hidden="true" id="icons" onclick="showPopup1()"></i>
+                    
+                    
+                </div>
+                <div>
+                    <input class="signin" type="submit" value="Sign in" name="signin">
+                    <input class="signup" type="submit" value="Sign up" name="signup">
+                </div>
+            </div>
+        </section>
+        <br>
+        <section class="grid">
+            <div class="content" >
+                <div class="content-left">
+                    <h2 class="h2">Order Your Best <br>Food anytime</h2>
+                    <p>Hey, Our delicious food is waiting for you, <br>
+                        We are always near to you with fresh item of food</p>
+                        <input class="explore" type="submit" value="Explore Food" name="signup">
+                </div>
+                <div class="content-right">
+                    <img class="img" src="https://i.ibb.co/4R6wbW5/pexels-sutee-pheera-5031938.jpg" alt="">
+                </div>
+            </div>
+        </section>
+        <p id="dishes"></p>
+        <section class="category"  >
+            
+            <div>
+                <h1 class="name">Popular Dishes</h1>
+            
+                <div class="list-items">
+                    <br>
+                    
+                    <div class="list">
+                        <img class="img1" src="https://b.zmtcdn.com/data/dish_images/ccb7dc2ba2b054419f805da7f05704471634886169.png" alt="">
+                    </div>
+                    <div class="list1">
+                        <h3 class="h3">Chicken Burger</h3>
+                        <p class="p1">Crispy seasoned chicken brreast, 
+                        topped with mandatory melted cheese,
+                        piled onto soft rolls with onion avocado,
+                        tomato and garlic mayo</p>
+                        <input class="order" type="submit" value="Order now" name="signup">
+                        <div class="price">
+                            <span><i class="fa fa-inr" aria-hidden="true"></i>199.0</span><span class="icon"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="list-items">
+                    <br>
+                    
+                    <div class="list">
+                        <img class="img1" src="https://b.zmtcdn.com/data/o2_assets/019409fe8f838312214d9211be010ef31678798444.jpeg" alt="">
+                    </div>
+                    <div class="list1">
+                        <h3 class="h3">North Indian</h3>
+                        <p class="p1">North indian curries usually have thick,
+                            moderately spicy and creamy gravies.The use of
+                            dried fruits and nuts is fairly common in 
+                            everyday foods.
+                        </p>
+                        <input class="order" type="submit" value="Order now" name="signup">
+                        <div class="price">
+                            <span><i class="fa fa-inr" aria-hidden="true"></i>349.0</span><span class="icon"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="list-items">
+                    <br>
+                    
+                    <div class="list">
+                        <img class="img1" src="https://b.zmtcdn.com/data/o2_assets/d0bd7c9405ac87f6aa65e31fe55800941632716575.png" alt="">
+                    </div>
+                    <div class="list1">
+                        <h3 class="h3">Pizza</h3>
+                        <p class="p1">Pizza is an Italian food.
+                            It is made with different toppings.
+                            Some of the most toppings are cheese, sausages, pepperoni, 
+                            vegetables,tamatoes.
+                        </p>
+                        <input class="order" type="submit" value="Order now" name="signup">
+                        <div class="price">
+                            <span><i class="fa fa-inr" aria-hidden="true"></i>180.0</span><span class="icon"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="list-items">
+                    <br>
+                    
+                    <div class="list">
+                        <img class="img1" src="https://i.ibb.co/XkWDYz7/image-5.jpg" alt="">
+                    </div>
+                    <div class="list1">
+                        <h3 class="h3">Samosa Chaat</h3>
+                        <p class="p1">A Samosa is a fried or baked pastry 
+                            with a spicy potato filling. The filling is wrapped 
+                            in dough and folded into a triangular or cone shape</p>
+                            <input class="order" type="submit" value="Order now" name="signup">
+                        <div class="price">
+                            <span><i class="fa fa-inr" aria-hidden="true"></i>50.0</span><span class="icon"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+                        </div>
+                    </div>
+                </div>
+    
+                
+                <div class="list-items">
+                    <br>
+                    
+                    <div class="list">
+                        <img class="img1" src="https://b.zmtcdn.com/data/dish_images/197987b7ebcd1ee08f8c25ea4e77e20f1634731334.png" alt="">
+                    </div>
+                    <div class="list1">
+                        <h3 class="h3">Fried Chicken</h3>
+                        <p class="p1">It is also known as Southern fried chicken,
+                            ia a dish consting of chicken pieces that have been 
+                            coated with seasoned flour or batter and pan-fried.
+                        </p>
+                        <input class="order" type="submit" value="Order now" name="signup">
+                        <div class="price">
+                            <span><i class="fa fa-inr" aria-hidden="true"></i>120.0</span><span class="icon"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="list-items">
+                    <br>
+                    
+                    <div class="list">
+                        <img class="img1" src="https://b.zmtcdn.com/data/dish_images/d19a31d42d5913ff129cafd7cec772f81639737697.png" alt="">
+                    </div>
+                    <div class="list1">
+                        <h3 class="h3">Dum Biryani</h3>
+                        <p class="p1">It is an authentic Hyderabadi special
+                            rice dish which is a popular Dum Biryani recipe of Chicken
+                            from Hyderabad served with kheera raita.</p>
+                            <input class="order" type="submit" value="Order now" name="signup">
+                        <div class="price">
+                            <span><i class="fa fa-inr" aria-hidden="true"></i>240.0</span><span class="icon"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="list-items">
+                    <br>
+                    
+                    <div class="list">
+                        <img class="img1" src="https://b.zmtcdn.com/data/dish_images/c2f22c42f7ba90d81440a88449f4e5891634806087.png" alt="">
+                    </div>
+                    <div class="list1">
+                        <h3 class="h3">Rolls</h3>
+                        <p class="p1">It is made with the goodness
+                            of chicken breast combined with various vegetables and spices.
+                            result is extremely delicious in possible way.</p>
+                            <input class="order" type="submit" value="Order now" name="signup">
+                        <div class="price">
+                            <span><i class="fa fa-inr" aria-hidden="true"></i>119.0</span><span class="icon"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="list-items">
+                    <br>
+                    
+                    <div class="list">
+                        <img class="img1" src="https://b.zmtcdn.com/data/o2_assets/e444ade83eb22360b6ca79e6e777955f1632716661.png" alt="">
+                    </div>
+                    <div class="list1">
+                        <h3 class="h3">Fried Rice</h3>
+                        <p class="p1">The fried rice recipe is one such adapted
+                             version from the asian cuisine transformed to a 
+                             popular street food recipes.</p>
+                             <input class="order" type="submit" value="Order now" name="signup">
+                        <div class="price">
+                            <span><i class="fa fa-inr" aria-hidden="true"></i>120.0</span><span class="icon"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="list-items">
+                    <br>
+                    
+                    <div class="list">
+                        <img class="img1" src="https://b.zmtcdn.com/data/o2_assets/8dc39742916ddc369ebeb91928391b931632716660.png" alt="">
+                    </div>
+                    <div class="list1">
+                        <h3 class="h3">Masala Dosa</h3>
+                        <p class="p1">Masala Dosa is one of the most popular 
+                            South Indian breakfast dishes served in restaurants. 
+                            These are quite addictive 
+                            and delicious. </p>
+                            <input class="order" type="submit" value="Order now" name="signup">
+                        <div class="price">
+                            <span><i class="fa fa-inr" aria-hidden="true"></i>49.0</span><span class="icon"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+                        </div>
+                    </div>
+                </div>
+    
+                <br><br><br><br><br></div>
+        </section>
+        
+        <p id="About Us"></p>
+        <br><br><br><br><br><br><br>
+        <section>
+            <div class="aboutus" >
+                <div class="about">
+                    <img class="img2" src="./image/foodie wave image.png" width=600px alt="">
+                </div>
+                <div class="us">
+                    <h2 class="h22">About Us</h2>
+                    <h2 class="h222">Why Choose Us?</h2>
+                    <h2 class="h2222">FOODIE :- A person with a particular interest in food</h2>
+                    <p class="pp">Foodies are individuals who have a deep passion for 
+                        food and culinary experiences. They are enthusiastic about 
+                        exploring different cuisines, flavors, cooking techniques, and 
+                        dining experiences. Foodies are not just about eating;
+                        They appreciate the artistry behind food preparation, the cultural 
+                        significance of dishes, and the stories that accompany each meal.</p>
+                    <div ><input class="learn" type="submit" value="Learn More.." name="signup"></div>
+                </div>
+            </div>
+        </section>
+        <p id="order1"></p>
+        <br><br>
+        <section>
+            <div class="order1" >
+                <div class="img22"> 
+                    <img src="https://i.pinimg.com/originals/1f/43/a2/1f43a2c417b3948d4da6835eca48f0a2.jpg " width=600px height=599px alt="">
+                </div>
+                <div class="order2">
+                    <h2 class="order22">Order</h2>
+                    <h2 class="order222">Free and Fast Food</h2>
+                    <div class="ord">
+                        <p class="ord1">Your Name </p>
+                        <p class="ord1">Your Number </p>
+                        <p class="ord1">Your Order </p>
+                        <p class="ord1">How much </p>
+                        <p class="ord1">Date and Time </p>
+                        <p class="ord1">Your Order </p>
+                    </div>
+                    <div>
+                    <form action="" id="search-form1"></form>
+                    <input type="text" placeholder="Enter your name" class="box1" id="search-box1">
+                    <br>
+                    <input type="number" placeholder="Enter your number"  class="box1" id="search-box1">
+                    <br>
+                    <input type="text" placeholder="Enter Food name"  class="box1" id="search-box1">
+                    <br>
+                    <input type="number" placeholder="How many orders"  class="box1" id="search-box1">
+                    <br>
+                    <input type="datetime-local" placeholder=" Date and Time"  class="box1" id="search-box1">
+                    <br>
+                    <input type="address" placeholder="Enter Your address"  class="box1" id="search-box1">
+                    <br>
+                    </div>
+                    <input class="explore1" type="submit" value="Order now" >
+                </div>
+            </div>
+        </section>
+        <br>
+        <section class="final">
+            <div class="final1">
+                <div class="f1">
+                    <h2 class="f11">Location</h2>
+                    <br>
+                    <p class="l1">India</p>
+                    <p class="l1">Japan</p>
+                    <p class="l1">Russia</p>
+                    <p class="l1">USA</p>
+                </div>
+                <div class="f1">
+                    <h2 class="f12">Contact us</h2>
+                    <br>
+                    <p class="l2">Basapuram Basavaraju</p>
+                    <p class="l2">+91 9182210958</p>
+                    <p class="l2">basapurambasavaraju918@gmilc.com</p>
+                </div>
+                <div class="f1">
+                    <h2 class="f13">Follow us</h2>
+                    <br>
+                    <p class="l3">Watsapp</p>
+                    <p class="l3">Instagram</p>
+                    <p class="l3">Twitter</p>
+                    <p class="l3">Facebook</p>
+                </div>
+            </div>
+        </section>
+        <br><br><br><br><br>
+    
+    </form>
+    </body>
+</html>
+
+<script>
+    function showPopup1() {
+    var popup = document.getElementById("search-popup");
+    popup.style.display = "block";
+    var popupcancel = document.getElementById("cancel_button");
+    popupcancel.style.display = "block";
+    var icon = document.getElementById("icons");
+    icon.style.display = "none";
+
+
+    }
+function hidePopup1() {
+    var popup = document.getElementById("search-popup");
+    popup.style.display = "none";
+    var popupcancel = document.getElementById("cancel_button");
+    popupcancel.style.display = "none";
+    var icon = document.getElementById("icons");
+    icon.style.display = "block";
+    }
+</script>
