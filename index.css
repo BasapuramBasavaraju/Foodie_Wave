@@ -113,15 +113,18 @@ input{
 }
 .signin{
     background: transparent;
-    border: none;
+    padding: 8px 20px;
     margin-left: -55%;
+    border-radius: 5px;
+    cursor: pointer;
 }
 .signup{
     background-color: #ff511c;
     color: #ffffff;
-    outline: none;
-    border: none;
-    border-radius: 5px;  
+    padding: 8px 20px;
+    border-color: #ff511c;
+    border-radius: 5px;
+    cursor: pointer;  
     margin-top: 10px;
 }
 .explore{
